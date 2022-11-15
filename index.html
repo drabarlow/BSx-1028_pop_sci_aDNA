@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ancient DNA</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Ancient DNA">
+  <meta name="author" content="Dr Axel Barlow">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/zenburn.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/custom.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+    
+  <slide class="nobackground">
+    <article class="flexbox vcenter">
+      <span>
+        <img width='300px' src="assets/img/A1_FullColour.svg">
+      </span>
+    </article>
+  </slide>
+    <slide class="title-slide segue nobackground">
+  
+  <aside class="gdbar">
+    <img src="assets/img/LA_Full_colour_reversed.svg">
+  </aside>
+  
+  <hgroup class="auto-fadein">
+    <h1>Ancient DNA</h1>
+    <h2>BSX1028: Popular Science Series</h2>
+    <p>Dr Axel Barlow<br/>email: a.barlow@bangor.ac.uk</p>
+  </hgroup>
+  
+  <article></article>  
+      
+  <footer class = 'license'>
+    <a href='http://creativecommons.org/licenses/by-nc-sa/3.0/'>
+    <img width = '80px' src = 'http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png'>
+    </a>
+  </footer>
+  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  
+  <article data-timings="">
+    <!-- adding bold and italic options -->
+
+<style>
+em {
+  font-style: italic
+}
+strong {
+  font-weight: bold;
+}
+</style>
+
+<h2>Ancient DNA</h2>
+
+<ul>
+<li>Molecular phylogenetics</li>
+<li>Ancient DNA</li>
+<li>Sabretooth cats</li>
+<li>Sequencing the North Sea <em>Homotherium</em></li>
+</ul>
+
+<p><img src="./assets/img/smilodon1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" width="45%" style="display: block; margin: auto 0 auto auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue dark" id="slide-2" style="background:;">
+  
+  <hgroup>
+    <h2>Molecular phylogenetics</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-3" style="background:white;">
+  
+  <hgroup>
+    <h2>You&#39;ve probably seen diagrams like this...</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <h3>This is called a <code>phylogeny</code>. It represents the evolutionary process</h3>
+
+<div style='float:left;width:31%;' class='centered'>
+  <ul>
+<li>The phylogeny works like an evolutionary tree</li>
+<li>The tips are species</li>
+<li>Nodes are their common ancestors</li>
+<li><strong>Molecular phylogenies</strong> are calculated using genetic data</li>
+</ul>
+
+</div>
+<div style='float:right;width:64%;'>
+  <p><img src="assets/fig/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="70%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  
+  <hgroup>
+    <h2>Mutation and inheritance creates the tree</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="./assets/img/dna-6560897.jpg" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="100%" style="display: block; margin: auto;" /></p>
+
+<ul>
+<li>Human mutation rate ~1.1×10<sup>−8</sup> per site per generation</li>
+<li>~40 mutations in your 3.6 Gb genome</li>
+<li>inherited by offspring</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/inheritance_tree.svg" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="80%" style="display: block; margin: auto;" /></p>
+
+<ul>
+<li>DNA divergence and time are (approximately) linearly related</li>
+<li>Branch lengths show the genetic divergence</li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-5">
+<hgroup>
+  <h2>DNA sequence alignment</h2>
+</hgroup>
+<article class = 'flexbox vcenter'>
+<p><img src="./assets/img/DNA_aling.svg" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="75%" style="display: block; margin: auto;" /></p>
+
+</article>
+<!-- Presenter Notes -->
+
+</slide>
+<slide class="" id="slide-6" style="background:;">
+  
+  <hgroup>
+    <h2>Mitochondrial DNA is great for phylogenetics!</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:31%;' class='centered'>
+  <ul>
+<li>Small</li>
+<li>High mutation rate</li>
+<li>Many copies per cell</li>
+<li>Maternally inherited</li>
+</ul>
+
+</div>
+<div style='float:right;width:64%;'>
+  <p><img src="./assets/img/DNA_in_cell.jpg" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="100%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue dark" id="slide-7" style="background:;">
+  
+  <hgroup>
+    <h2>Ancient DNA</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>Ancient DNA is just old DNA</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/samples.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" width="80%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>Some samples don&#39;t fit in the lab!</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/big_bone.jpg" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" width="65%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>Study species</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/extinct.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" width="90%" style="display: block; margin: auto;" /></p>
+
+<p><em>Glyptodont, WolfmanSF, CC BY_SA 3.0</em></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>After thousands of years, most of the DNA is lost</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/Medvebarlang04.jpg" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" width="80%" style="display: block; margin: auto;" />
+<em>Zátonyi Sándor, (ifj.) Fizped, CC BY-SA 3.0</em></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>This makes the work contamination sensitive</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/sina_lab.jpg" title="plot of chunk unnamed-chunk-11" alt="plot of chunk unnamed-chunk-11" width="75%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="slide-13" style="background:white;">
+  
+  <hgroup>
+    <h2>But the samples are already highly contaminated</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-12-1.png" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" width="60%" style="display: block; margin: auto;" /></p>
+
+<p><em>Data from Noonan et al. 2005. Science</em></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue dark" id="slide-14" style="background:;">
+  
+  <hgroup>
+    <h2>Sabretooth cats</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-15" style="background:;">
+  
+  <hgroup>
+    <h2>There were two genera of sabretooth cats</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li><strong>A genus is a group of closely related species. It&#39;s the first part of the scientific name</strong></li>
+<li><strong>e.g.</strong> <strong><em>Homo sapiens</em></strong></li>
+</ul>
+
+<div style='float:left;width:48%;' class='centered'>
+  <h3><em>Smilodon</em></h3>
+
+<ul>
+<li>The most commonly known group</li>
+<li>Massive canines</li>
+<li>&gt; 400 kg and 120 cm shoulder height</li>
+<li>N and S America</li>
+<li>3 species, <em>S. gracilis, S. populator, S. fatalis</em></li>
+<li>Extinction 10 ka</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/smilodon_skull.jpg" title="plot of chunk unnamed-chunk-13" alt="plot of chunk unnamed-chunk-13" width="100%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-16" style="background:;">
+  
+  <hgroup>
+    <h2>There were two genera of sabretooth cats</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li><strong>A genus us a group of closely related species. It&#39;s the first part of the scientific name</strong></li>
+<li><strong>e.g.</strong> <strong><em>Homo sapiens</em></strong></li>
+</ul>
+
+<div style='float:left;width:48%;' class='centered'>
+  <h3><em>Homotherium</em></h3>
+
+<ul>
+<li>Less known group</li>
+<li>Also known as scimitar-toothed cats</li>
+<li>Flat, serrated canines</li>
+<li>~ 200 kg and 110 cm shoulder height</li>
+<li>Europe, Africa, N and S America</li>
+<li>Europe: <em>H. latidens</em>, extinction 300 ka</li>
+<li>N. America: <em>H. serum</em>, extinction 12 ka</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/Homotherium_serum.jpg" title="plot of chunk unnamed-chunk-14" alt="plot of chunk unnamed-chunk-14" width="100%" style="display: block; margin: auto;" /></p>
+
+<p><em>Sergiodlarosa, CC BY-SA 3.0</em></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2><em>Homotherium</em> skull</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/Homotherium_crenatidens_skull_45.jpg" title="plot of chunk unnamed-chunk-15" alt="plot of chunk unnamed-chunk-15" width="90%" style="display: block; margin: auto;" /></p>
+
+<p><em>Ghedoghedo, CC BY-SA 4.0</em></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-18" style="background:;">
+  
+  <hgroup>
+    <h2>Fishing for fossils</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>Britain connected to mainland Europe by an area called <strong>Doggerland</strong></li>
+<li>Rising sea levels 6-7 ka flooded the area, making Britain an island</li>
+</ul>
+
+<p><img src="./assets/img/ship-2262650.jpg" title="plot of chunk unnamed-chunk-16" alt="plot of chunk unnamed-chunk-16" width="90%" style="display: block; margin: auto;" /></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/Doggerland.svg" title="plot of chunk unnamed-chunk-17" alt="plot of chunk unnamed-chunk-17" width="90%" style="display: block; margin: auto;" /></p>
+
+<p><em>Max Naylor, CC BY-SA 3.0</em></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-19">
+<hgroup>
+  <h2>16th March 2000, something surprising turned up...</h2>
+</hgroup>
+<article class = 'flexbox vcenter'>
+<p><img src="./assets/img/NS_Homo.png" title="plot of chunk unnamed-chunk-18" alt="plot of chunk unnamed-chunk-18" width="100%" style="display: block; margin: auto;" /></p>
+
+<h3>This didn&#39;t look like a 300 ka fossil</h3>
+
+</article>
+<!-- Presenter Notes -->
+
+</slide>
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>Analysis of the Dutch North Sea <em>Homotherium</em></h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <h3>Dating</h3>
+
+<ul class = "build incremental">
+<li>The bone was radiocarbon dated at 31,300 ± 400!</li>
+<li><p>This was extraordinary, so the dating was repeated:</p>
+
+<ul>
+<li>31,300 ± 400</li>
+<li>26,900 ± 400</li>
+<li>26,700 ± 240</li>
+<li>28,100 ± 220</li>
+<li>27,650 ± 280</li>
+</ul></li>
+<li><p>The first Late Pleistocene European <em>Homotherium</em></p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue dark" id="slide-21" style="background:;">
+  
+  <hgroup>
+    <h2>Sequencing the North Sea <em>Homotherium</em></h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-22">
+<hgroup>
+  <h2>Sequencing of ancient DNA</h2>
+</hgroup>
+<article class = 'flexbox vcenter'>
+<p><img src="./assets/img/aDNA_seq.svg" title="plot of chunk unnamed-chunk-19" alt="plot of chunk unnamed-chunk-19" width="95%" style="display: block; margin: auto;" /></p>
+
+</article>
+<!-- Presenter Notes -->
+
+</slide>
+<slide class="" id="slide-23">
+<hgroup>
+  <h2>Sequencing experiment 1</h2>
+</hgroup>
+<article class = 'flexbox vcenter'>
+<ul class = "build incremental">
+<li><h2>Total sequences = 2,628,309</h2></li>
+<li><h2>Mapped sequences grand total =</h2></li>
+<li><h2>1</h2></li>
+</ul>
+
+</article>
+<!-- Presenter Notes -->
+
+</slide>
+<slide class="" id="slide-24" style="background:white;">
+  
+  <hgroup>
+    <h2>DNA hybridisation capture</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>DNA has 2 strands, arrange in a double helix</li>
+<li>It can be heat denatured</li>
+<li>When cooled, the single strands will stick (hybridise) to strands with a similar sequence</li>
+<li>We can &quot;fish&quot; target sequences from a pool of contaminants</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/dna-1889085.jpg" title="plot of chunk unnamed-chunk-20" alt="plot of chunk unnamed-chunk-20" width="110%" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-25">
+<hgroup>
+  <h2>DNA hybridisation capture*</h2>
+</hgroup>
+<article class = 'flexbox vcenter'>
+<p><img src="./assets/img/hybr.svg" title="plot of chunk unnamed-chunk-21" alt="plot of chunk unnamed-chunk-21" width="90%" /></p>
+
+<h3>*Of course this only works if you know the sequence in advance</h3>
+
+</article>
+<!-- Presenter Notes -->
+
+</slide>
+<slide class="" id="slide-26" style="background:white;">
+  
+  <hgroup>
+    <h2>Meanwhile a Danish group were sequencing North American cave lion mtDNA</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:31%;' class='centered'>
+  <ul>
+<li>Sequence analysis showed it was actually a <em>Homotherium</em></li>
+<li>This provided the sequence for the hybridisation cature baits</li>
+</ul>
+
+</div>
+<div style='float:right;width:64%;'>
+  <p><img src="./assets/img/NA_Homo.png" title="plot of chunk unnamed-chunk-22" alt="plot of chunk unnamed-chunk-22" width="90%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-27">
+<hgroup>
+  <h2>Sequencing experiment 2 (hybridisation capture)</h2>
+</hgroup>
+<article class = 'flexbox vcenter'>
+<ul class = "build incremental">
+<li><h2>Total sequences = 72,759,982</h2></li>
+<li><h2>Mapped sequences grand total =</h2></li>
+<li><h2>12,050,089</h2></li>
+</ul>
+
+</article>
+<!-- Presenter Notes -->
+
+</slide>
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>Phylogenetic analysis of sabretooth cats</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/sabre_tree_NODATE.svg" title="plot of chunk unnamed-chunk-23" alt="plot of chunk unnamed-chunk-23" width="85%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-29" style="background:;">
+  
+  <hgroup>
+    <h2>Mutation and inheritance creates the tree</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="./assets/img/dna-6560897.jpg" title="plot of chunk unnamed-chunk-24" alt="plot of chunk unnamed-chunk-24" width="100%" style="display: block; margin: auto;" /></p>
+
+<ul>
+<li>Human mutation rate ~1.1×10<sup>−8</sup> per site per generation</li>
+<li>~40 mutations in your 3.6 Gb genome</li>
+<li>inherited by offspring</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/inheritance_tree.svg" title="plot of chunk unnamed-chunk-25" alt="plot of chunk unnamed-chunk-25" width="80%" style="display: block; margin: auto;" /></p>
+
+<ul>
+<li>DNA divergence and time are (approximately) linearly related</li>
+<li>Branch lengths show the genetic divergence</li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>Molecular dating of sabretooth cats</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/sabre_tree.svg" title="plot of chunk unnamed-chunk-26" alt="plot of chunk unnamed-chunk-26" width="85%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>Molecular dating of sabretooth cats</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li>Sabretooths divergence from living cats 20 Ma</li>
+<li><em>Homotherium</em> and <em>Smilodon</em> were more diverged from one another than any living cats</li>
+<li>A huge diversity was lost with the extinction of the sabretooths</li>
+<li>North American and European <em>Homotherium</em> were genetically similar</li>
+<li>We recommended they be treated as a single species, <em>H. latidens</em></li>
+</ul>
+
+<p><img src="./assets/img/smilodon1.png" title="plot of chunk unnamed-chunk-27" alt="plot of chunk unnamed-chunk-27" width="45%" style="display: block; margin: auto 0 auto auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>Paijmans et al. 2017</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><embed src="./assets/img/Paijmans et al. - 2017.pdf" title="plot of chunk unnamed-chunk-28" alt="plot of chunk unnamed-chunk-28" width="100%" height="500" type="application/pdf" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="thank-you-slide segue nobackground" id="slide-33">
+  <aside class="gdbar right"><img src="assets/img/LA_Full_colour_reversed.svg"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>Ancient DNA</h2>
+    <p><strong>Cutting edge technology to unlock the secrets of extinct animals</strong></p>
+
+  </article>
+
+  <p class="auto-fadein" data-config-contact="">
+    
+  </p>
+</slide>
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='NA'>
+         1
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Molecular phylogenetics'>
+         2
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='You&#39;ve probably seen diagrams like this...'>
+         3
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Mutation and inheritance creates the tree'>
+         4
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='DNA sequence alignment'>
+         5
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Mitochondrial DNA is great for phylogenetics!'>
+         6
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Ancient DNA'>
+         7
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Ancient DNA is just old DNA'>
+         8
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Some samples don&#39;t fit in the lab!'>
+         9
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Study species'>
+         10
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='After thousands of years, most of the DNA is lost'>
+         11
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='This makes the work contamination sensitive'>
+         12
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='But the samples are already highly contaminated'>
+         13
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Sabretooth cats'>
+         14
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='There were two genera of sabretooth cats'>
+         15
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='There were two genera of sabretooth cats'>
+         16
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='<em>Homotherium</em> skull'>
+         17
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='Fishing for fossils'>
+         18
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=19 title='16th March 2000, something surprising turned up...'>
+         19
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=20 title='Analysis of the Dutch North Sea <em>Homotherium</em>'>
+         20
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=21 title='Sequencing the North Sea <em>Homotherium</em>'>
+         21
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=22 title='Sequencing of ancient DNA'>
+         22
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=23 title='Sequencing experiment 1'>
+         23
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=24 title='DNA hybridisation capture'>
+         24
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=25 title='DNA hybridisation capture*'>
+         25
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=26 title='Meanwhile a Danish group were sequencing North American cave lion mtDNA'>
+         26
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=27 title='Sequencing experiment 2 (hybridisation capture)'>
+         27
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=28 title='Phylogenetic analysis of sabretooth cats'>
+         28
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=29 title='Mutation and inheritance creates the tree'>
+         29
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=30 title='Molecular dating of sabretooth cats'>
+         30
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=31 title='Molecular dating of sabretooth cats'>
+         31
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=32 title='Paijmans et al. 2017'>
+         32
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=33 title='Ancient DNA'>
+         33
+      </a>
+    </li>
+    
+    </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
