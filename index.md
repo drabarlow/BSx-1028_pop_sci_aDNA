@@ -174,7 +174,7 @@ strong {
 
 ## There were two genera of sabretooth cats
 
-- **A genus us a group of closely related species. It's the first part of the scientific name**
+- **A genus is a group of closely related species. It's the first part of the scientific name**
 - **e.g.** ***Homo sapiens***
 
 *** =left
@@ -186,8 +186,8 @@ strong {
 - Flat, serrated canines
 - ~ 200 kg and 110 cm shoulder height
 - Europe, Africa, N and S America
-- Europe: *H. latidens*, extinction 300 ka
-- N. America: *H. serum*, extinction 12 ka
+- Pleistocene Europe: *H. latidens*, extinction 300 ka
+- Pleistocene N. America: *H. serum*, extinction 12 ka
 
 *** =right
 
